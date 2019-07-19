@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/taggle/src/minimal.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./node_modules/taggle/src/taggle.js"></script>
+    <script src="./node_modules/taggle/dist/taggle.min.js"></script>
+</head>
+
+<body>
+    <button class="tablink" id="tab1">Link</button>
+    <button class="tablink" id="tab2">File</button>
+
+    <div id="link" class="tabcontent">
+        <div><input id="title" rows="1"></input></div>
+        <div class="menu">
+            <h1>project</h1>>
+            <div class="content">
+                <select name="project" id="selectproject">
+                    <option>nlp</option>
+                    <option>deeplearning</option>
+                    <option><a href='#'>...more</button></option>
+                </select>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <div class="menu">
+            <h1>tags</h1>
+            <div id="example3" class="content"></div>
+        </div>
+        <div style="clear:both;"></div>
+        <div class="menu">
+            <h1>note</h1>
+            <div class="content">
+                <textarea id="norw" rows="3"></textarea>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <div>
+            <a href="#" class="btn-gradient yellow mini" id="addbutton">add</a>
+        </div>
+    </div>
+
+    <div id="file" class="tabcontent">
+        <h3>News</h3>
+        <p>Some news this fine day!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

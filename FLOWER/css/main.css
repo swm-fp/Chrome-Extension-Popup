@@ -1,0 +1,164 @@
+body {
+    width: 400px;
+    height: 80%;
+    padding: 1rem;
+    color: #555555;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    width:30%;
+    float:left;
+    font-size:1rem;
+}
+.content{
+    width:60%;
+    float:right;
+}
+div{
+    margin: 3px;
+}
+select {
+    width: 100%;
+    font-size: 1rem;
+}
+input{
+    width: 100%;
+    font-size: 1rem;
+    background-color: #f8f8f8;
+    line-height : normal; /* line-height 초기화 */ 
+    padding: .3em .1em; /* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */  
+    border: 1px solid #999; 
+    border-radius: 4px ; /* iSO 둥근모서리 제거 */ 
+    outline-style: none; /* 포커스시 발생하는 효과 제거를 원한다면 */ 
+    -webkit-appearance: none; /* 브라우저별 기본 스타일링 제거 */ 
+    -moz-appearance: none; 
+    appearance: none;
+}
+input:focus {
+    width: 100%;
+    font-size: 1rem;
+    border: 3px solid rgba(170, 166, 166, 0.685);
+}
+textarea {
+    width: 100%;
+    font-size: 1rem;
+    background-color: #f8f8f8;
+    line-height : normal; /* line-height 초기화 */ 
+    padding: .3em .1em; /* 원하는 여백 설정, 상하단 여백으로 높이를 조절 */ 
+    border: 1px solid #999; 
+    border-radius: 4px; /* iSO 둥근모서리 제거 */ 
+    outline-style: none; /* 포커스시 발생하는 효과 제거를 원한다면 */ 
+    -webkit-appearance: none; /* 브라우저별 기본 스타일링 제거 */ 
+    -moz-appearance: none; 
+    appearance: none;
+}
+textarea:focus {
+    width: 100%;
+    font-size: 1rem;
+    border: 3px solid rgba(170, 166, 166, 0.685);
+}
+
+div {
+    border: 3px;
+    padding-top: 5px;
+}
+
+button{
+    border-radius: 4px ;
+}
+
+.btn-gradient {
+    margin: 5px;
+    float:right;
+}
+
+.btn-gradient.mini {
+    padding: 4px 12px;
+    font-size: 12px;
+}
+
+.btn.yellow,
+.btn-two.yellow {
+    background-color: #74E1A7;
+}
+
+/* default button style */
+.btn {
+    position: relative;
+    border: 0;
+    padding: 15px 25px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+.btn:active {
+    top: 4px;
+}
+
+.btn.yellow {
+    box-shadow: 0px 4px 0px #74E1A7;
+}
+
+.btn.yellow:active {
+    box-shadow: 0 0 #74E1A7;
+    background-color: #74E1A7;
+}
+
+/* Gradient buttons */
+.btn-gradient {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+    border-bottom: 4px solid rgba(255, 255, 255, 0.21);
+    border-radius: 4px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* Gradient - ugly css is ugly */
+.btn-gradient.yellow {
+    background: rgba(116, 225, 167, 1);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(240, 210, 100, 1)), to(rgba(229, 201, 96, 1)));
+    background: -webkit-linear-gradient(rgba(240, 210, 100, 1) 0%, rgba(116, 221, 167, 1) 100%);
+    background: -moz-linear-gradient(rgba(240, 210, 100, 1) 0%, rgba(116, 221, 167, 1) 100%);
+    background: -o-linear-gradient(rgba(240, 210, 100, 1) 0%, rgba(116, 221, 167, 1) 100%);
+    background: linear-gradient(rgba(116, 221, 167, 1) 0%, rgba(116, 221, 167, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0d264', endColorstr='#e5c960', GradientType=0);
+}
+
+.btn-gradient.yellow:active {
+    background: #74E1A7;
+}
+
+/* Style tab links */
+.tablink {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    float: left;
+    border-color: #74E1A7;
+    border: "10px solid #74E1A7";
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #74E1A7;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: rgb(8, 8, 8);
+    background: rgb(243, 240, 240);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+    border-radius: 10px;
+}
